@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>muiltimeia form</title>
+</head>
+<body>
+    <header>
+        <H1>User Registration</H1>
+        <p>Fill in the form below to Register</p>
+    </header>
+    <section>
+        <H2>Personal Information</H2>
+        <label>Full name:</label>
+        <input type="text" name="fullname" placeholder="=enter your name">
+        <br>
+        <label>Email:</label>
+        <input type="email" placeholder="enter your email address"require autocomplete on">
+        <br>
+        <label>Phone:</label>
+        <input type="tel" name="phone"placeholder="enter your phone number">
+        <br>
+         
+        <label>Date of Birth:</label>
+        <input type="date" name="dob" required>
+        <br>
+        <label for="Gender">Gender</label>
+        <select id="gender"name= "gender"required>
+            <option value="" disabled selected>select your option </option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="other">other</option>
+        </section>
+    </section>
+        <label>
+          <input type="checkbox" name="terms" required>
+          i agree to the terms and conditions
+        </label>
+    <label>
+         <input type="checkbox" name="subscribe" value="Yes" required>
+         subcribe to oue Newspaper
+    </label>
+
+    <section>
+        <h2>Our value</h2>
+        <ul>
+            <li>Integrity</li>
+            <li>Innovation</li>
+            <li>Excellence</li>
+            <li>Respect</li>
+         </ul>
+    </section>
+    <section id="tables">
+      <h2>Course Schedule</h2>
+      <table border="1" cellpedding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Course</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>Web Development</td>
+            <td>10:00 - 12:00</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>Data Structures</td>
+            <td>14:00 - 16:00</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Database Systems</td>
+            <td>09:00 - 11:00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+        <h1>
+            WELCOME TO THE MULTIMEDIA PAGE
+        </h1>
+        <h2>Media gallery</h2>
+        <img src="https://cdn.pixabay.com/photo/2022/12/16/16/28/drinking-cups-7660115_1280.jpg" alt="Website banner" width="350" height="200">
+
+        <h2>listen to this audio</h2>
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+            your browser does not support the audio element.
+        </audio>
+        <h2>
+        <h3>Watch this video</h3>
+      <video controls width="400">
+        <source src="https://cdn.pixabay.com/video/2025/03/08/263305_large.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+            
+    </section>
+</body>
+</html>
